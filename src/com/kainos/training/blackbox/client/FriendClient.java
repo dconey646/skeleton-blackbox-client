@@ -7,7 +7,7 @@ import javax.ws.rs.core.Form;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.kainos.training.blackbox_interface.model.Person;
+import com.kainos.training.blackboxinterface.model.person.Person;
 
 public class FriendClient {
 	

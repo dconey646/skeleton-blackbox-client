@@ -15,9 +15,9 @@
       <version>2.18</version>
     </dependency>
     <dependency>
-      <groupId>blackbox-interface</groupId>
-      <artifactId>com.kainos.training</artifactId>
-      <version>1</version>
+        <groupId>com.kainos.training</groupId>
+        <artifactId>blackbox-interface</artifactId>
+        <version>1</version>
     </dependency>
     <dependency>
     	<groupId>org.glassfish.jersey.media</groupId>
