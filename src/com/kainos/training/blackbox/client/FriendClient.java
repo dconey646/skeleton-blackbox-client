@@ -17,11 +17,4 @@ public class FriendClient {
 		target = ClientBuilder.newClient().target("http://localhost:8910").path("/person");
 	}
 	
-	public Response addFriend(Person p){
-		Response response = 
-				target.request().post(Entity.entity(p, MediaType.APPLICATION_JSON));
-		
-		return response;
-	}
-	
 }
